@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hoszly — Direct booking &amp; deposit software for small guesthouses</title>
+<meta name="description" content="Hoszly helps small guesthouses, villas and cabanas take direct bookings with secure advance deposits — via WhatsApp payment links — and stop last-minute no-shows. Built in Sri Lanka.">
+<link rel="canonical" href="https://www.hoszly.com/">
+<meta property="og:title" content="Hoszly — Direct bookings, deposits secured">
+<meta property="og:description" content="Take secure advance deposits from WhatsApp inquiries, sync calendars with Booking.com and Airbnb, and stop no-shows. For properties with 2–10 rooms.">
+<meta property="og:url" content="https://www.hoszly.com/">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Hoszly",
+  "url": "https://www.hoszly.com/",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "description": "Direct booking and deposit software for small guesthouses, villas and cabanas. Take secure advance payments via WhatsApp links, sync calendars with Booking.com and Airbnb, and reduce no-shows.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hoszly",
+    "url": "https://www.hoszly.com/",
+    "email": "mail@hoszly.com",
+    "telephone": "+94766227255",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tangalle",
+      "addressCountry": "LK"
+    },
+    "sameAs": [
+      "https://www.facebook.com/hoszly",
+      "https://www.instagram.com/hoszly",
+      "https://www.youtube.com/@hoszly",
+      "https://www.linkedin.com/company/hoszly",
+      "https://x.com/hoszly"
+    ]
+  }
+}
+</script>
+<style>
+:root{
+  --ink:#12332e;
+  --ink-soft:#3c5a54;
+  --paper:#eef4f0;
+  --paper-deep:#e2ece5;
+  --sea:#1b6e8c;
+  --gold:#c99a2c;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Outfit',system-ui,sans-serif;
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.6;
+  font-size:17px;
+}
+.wrap{max-width:680px;margin:0 auto;padding:0 24px}
+header{padding:40px 0 0}
+.brand{
+  font-family:'Fraunces',serif;
+  font-weight:600;
+  font-size:1.5rem;
+  letter-spacing:-0.01em;
+  color:var(--ink);
+}
+.brand span{color:var(--sea)}
+main{padding:64px 0 24px}
+h1{
+  font-family:'Fraunces',serif;
+  font-weight:500;
+  font-size:clamp(2.1rem,6vw,3.1rem);
+  line-height:1.12;
+  letter-spacing:-0.015em;
+  max-width:16ch;
+}
+.lede{
+  margin-top:24px;
+  font-size:1.1rem;
+  color:var(--ink-soft);
+  max-width:52ch;
+}
+.lede strong{color:var(--ink);font-weight:600}
+.flow{
+  margin:56px 0;
+  border-top:1px solid var(--paper-deep);
+  border-bottom:1px solid var(--paper-deep);
+  padding:12px 0;
+}
+.flow ol{list-style:none;counter-reset:step}
+.flow li{
+  counter-increment:step;
+  display:flex;
+  gap:18px;
+  align-items:baseline;
+  padding:16px 0;
+}
+.flow li + li{border-top:1px dashed var(--paper-deep)}
+.flow li::before{
+  content:counter(step);
+  font-family:'Fraunces',serif;
+  font-weight:600;
+  font-size:1.35rem;
+  color:var(--gold);
+  min-width:1.4ch;
+}
+.flow b{font-weight:600}
+.flow small{display:block;color:var(--ink-soft);font-size:.95rem}
+.who{color:var(--ink-soft);max-width:52ch}
+.who em{font-style:normal;color:var(--ink);font-weight:500}
+.cta{
+  margin:48px 0 0;
+  background:var(--ink);
+  color:var(--paper);
+  border-radius:14px;
+  padding:32px 28px;
+}
+.cta h2{
+  font-family:'Fraunces',serif;
+  font-weight:500;
+  font-size:1.45rem;
+  line-height:1.25;
+}
+.cta p{margin-top:10px;color:#c8d8d2;max-width:50ch}
+.actions{margin-top:22px;display:flex;flex-wrap:wrap;gap:12px}
+.btn{
+  display:inline-block;
+  text-decoration:none;
+  font-weight:600;
+  font-size:.98rem;
+  padding:12px 22px;
+  border-radius:10px;
+  transition:transform .12s ease;
+}
+.btn:active{transform:scale(.98)}
+.btn-gold{background:var(--gold);color:#241a04}
+.btn-line{border:1.5px solid #4d6a63;color:var(--paper)}
+.btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+footer{
+  padding:56px 0 48px;
+  color:var(--ink-soft);
+  font-size:.92rem;
+}
+footer .sig{font-family:'Fraunces',serif;color:var(--ink);font-size:1rem;margin-bottom:6px}
+footer a{color:var(--sea);text-decoration:none}
+footer a:hover,footer a:focus-visible{text-decoration:underline}
+footer .row{margin-top:2px}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .btn{transition:none}
+}
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <div class="brand">Hoszly<span>.</span></div>
+</header>
+
+<main class="wrap">
+  <h1>Your rooms. Your guests. Your money.</h1>
+
+  <p class="lede">
+    Booking sites take <strong>15–20% of every reservation</strong> — and free-cancellation
+    guests still leave your rooms empty at the last minute. Hoszly gives small properties a
+    direct booking page with <strong>secure advance deposits</strong>, so every confirmed
+    guest has real money on the table.
+  </p>
+
+  <div class="flow" aria-label="How Hoszly works">
+    <ol>
+      <li>
+        <div><b>A guest messages you on WhatsApp.</b>
+        <small>Or finds you on Google Maps — the moment you usually lose to Booking.com.</small></div>
+      </li>
+      <li>
+        <div><b>You send one payment link.</b>
+        <small>Generated in a tap. The guest pays a deposit by card, straight into your own bank account.</small></div>
+      </li>
+      <li>
+        <div><b>The booking is locked.</b>
+        <small>Calendars update, Booking.com and Airbnb dates are blocked, and no-shows stop costing you.</small></div>
+      </li>
+    </ol>
+  </div>
+
+  <p class="who">
+    Built for owner-run guesthouses, villas and cabanas with <em>2–10 rooms</em> — starting
+    on the south coast of Sri Lanka, made to work anywhere.
+  </p>
+
+  <section class="cta">
+    <h2>Launching soon. Early properties get set up for free.</h2>
+    <p>We onboard the first properties personally — payment gateway, calendar sync and
+    Google profile included. Ask for a demo or join the early list.</p>
+    <div class="actions">
+      <a class="btn btn-gold" href="mailto:mail@hoszly.com?subject=Early%20access%20—%20Hoszly">Email us</a>
+      <a class="btn btn-line" href="https://wa.me/94766227255?text=Hi%20Hoszly%2C%20I%27d%20like%20a%20demo" rel="noopener">WhatsApp us</a>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <div class="sig">Hoszly</div>
+  <div class="row">Tangalle, Sri Lanka</div>
+  <div class="row"><a href="mailto:mail@hoszly.com">mail@hoszly.com</a> · <a href="tel:+94766227255">+94 76 622 7255</a></div>
+  <div class="row">© 2026 Hoszly</div>
+</footer>
+
+</body>
+</html>
